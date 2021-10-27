@@ -12,16 +12,6 @@ class Dataset(phlorest.Dataset):
     id = "lee_and_hasegawa2013"
 
     def cmd_makecldf(self, args):
-        """
-summary.trees: original/Ainu_SDollo_GRW.mcct.trees
-	cp $< $@
-
-posterior.trees: original/Ainu_SDollo_GRW.trees.gz
-	nexus trees -c -n 1000 $< -o $@
-
-data.nex:
-	cp original/Ainu.nex $@
-        """
         self.init(args)
         with self.nexus_summary() as nex:
             self.add_tree_from_nexus(

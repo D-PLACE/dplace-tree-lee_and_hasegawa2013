@@ -1,20 +1,20 @@
-ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code
-Asahikawa,Asahikawa,,43.633654,142.46167,ainu1240,
-Bihoro,Bihoro,,43.633654,142.46167,ainu1240,
-Hiratori,Hiratori,,43.633654,142.46167,ainu1240,
-Horobetsu,Horobetsu,,43.633654,142.46167,ainu1240,
-Kushiro,Kushiro,,43.633654,142.46167,ainu1240,
-Maoka,Maoka,,48.141866,142.329834,sakh1245,
-Nairo,Nairo,,48.141866,142.329834,sakh1245,
-Nayoro,Nayoro,,43.633654,142.46167,ainu1240,
-Niikappu,Niikappu,,43.633654,142.46167,ainu1240,
-Nukkibetsu,Nukkibetsu,,43.633654,142.46167,ainu1240,
-Obihiro,Obihiro,,43.633654,142.46167,ainu1240,
-Ochiho,Ochiho,,48.141866,142.329834,sakh1245,
-Oshamambe,Oshamambe,,43.633654,142.46167,ainu1240,
-Raichishka,Raichishka,,48.141866,142.329834,sakh1245,
-Samani,Samani,,43.633654,142.46167,ainu1240,
-Shiraura,Shiraura,,48.141866,142.329834,sakh1245,
-Soya,Soya,,43.633654,142.46167,ainu1240,
-Tarantomari,Tarantomari,,48.141866,142.329834,sakh1245,
-Yakumo,Yakumo,,43.633654,142.46167,ainu1240,
+ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Glottolog_Name
+Asahikawa,Asahikawa,,43.633654,142.46167,ainu1240,,Hokkaido Ainu
+Bihoro,Bihoro,,43.633654,142.46167,ainu1240,,Hokkaido Ainu
+Hiratori,Hiratori,,43.633654,142.46167,ainu1240,,Hokkaido Ainu
+Horobetsu,Horobetsu,,43.633654,142.46167,ainu1240,,Hokkaido Ainu
+Kushiro,Kushiro,,43.633654,142.46167,ainu1240,,Hokkaido Ainu
+Maoka,Maoka,,48.141866,142.329834,sakh1245,,Sakhalin Ainu
+Nairo,Nairo,,48.141866,142.329834,sakh1245,,Sakhalin Ainu
+Nayoro,Nayoro,,43.633654,142.46167,ainu1240,,Hokkaido Ainu
+Niikappu,Niikappu,,43.633654,142.46167,ainu1240,,Hokkaido Ainu
+Nukkibetsu,Nukkibetsu,,43.633654,142.46167,ainu1240,,Hokkaido Ainu
+Obihiro,Obihiro,,43.633654,142.46167,ainu1240,,Hokkaido Ainu
+Ochiho,Ochiho,,48.141866,142.329834,sakh1245,,Sakhalin Ainu
+Oshamambe,Oshamambe,,43.633654,142.46167,ainu1240,,Hokkaido Ainu
+Raichishka,Raichishka,,48.141866,142.329834,sakh1245,,Sakhalin Ainu
+Samani,Samani,,43.633654,142.46167,ainu1240,,Hokkaido Ainu
+Shiraura,Shiraura,,48.141866,142.329834,sakh1245,,Sakhalin Ainu
+Soya,Soya,,43.633654,142.46167,ainu1240,,Hokkaido Ainu
+Tarantomari,Tarantomari,,48.141866,142.329834,sakh1245,,Sakhalin Ainu
+Yakumo,Yakumo,,43.633654,142.46167,ainu1240,,Hokkaido Ainu
