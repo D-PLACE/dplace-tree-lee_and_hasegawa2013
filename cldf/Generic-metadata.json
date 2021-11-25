@@ -7,19 +7,27 @@
     ],
     "dc:bibliographicCitation": "Lee S, Hasegawa T (2013) Evolution of the Ainu Language in Space and Time. PLoS ONE 8(4): e62243. doi: 10.1371/journal.pone.0062243",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Generic",
-    "dc:hasPart": {
-        "dc:relation": "data.nex",
-        "dc:description": "The data underlying the analysis which created the phylogeny",
-        "dc:format": "https://en.wikipedia.org/wiki/Nexus_file"
-    },
     "dc:identifier": "https://doi.org/10.1371/journal.pone.0062243",
+    "dc:license": "https://creativecommons.org/licenses/by/2.0/",
     "dc:source": "sources.bib",
-    "dcat:accessURL": "https://github.com/D-PLACE/dplace-tree-lee_and_hasegawa2013",
+    "dc:subject": {
+        "family": "Ainu [ainu1252]",
+        "analysis": "bayesian",
+        "scaling": "years"
+    },
+    "dc:title": "Phlorest phylogeny derived from Lee & Hasegawa 2013 'Ainu (Lee & Hasegawa 2013)'",
+    "dcat:accessURL": "https://github.com/phlorest/lee_and_hasegawa2013",
     "prov:wasDerivedFrom": [
         {
-            "rdf:about": "https://github.com/D-PLACE/dplace-tree-lee_and_hasegawa2013",
+            "rdf:about": "data.nex",
             "rdf:type": "prov:Entity",
-            "dc:created": "1804bb1",
+            "dc:description": "The data underlying the analysis which created the phylogeny",
+            "dc:format": "https://en.wikipedia.org/wiki/Nexus_file"
+        },
+        {
+            "rdf:about": "https://github.com/phlorest/lee_and_hasegawa2013",
+            "rdf:type": "prov:Entity",
+            "dc:created": "c463390",
             "dc:title": "Repository"
         },
         {
@@ -32,7 +40,7 @@
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.8.10"
+            "dc:description": "3.9.6"
         },
         {
             "dc:title": "python-packages",
