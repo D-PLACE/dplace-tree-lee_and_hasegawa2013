@@ -1,10 +1,7 @@
-import re
 import pathlib
 
 import nexus
 import phlorest
-
-RATE_PATTERN = re.compile(r':\[&rate=[0-9]*\.?[0-9]*]')
 
 
 class Dataset(phlorest.Dataset):
@@ -13,22 +10,21 @@ class Dataset(phlorest.Dataset):
 
     def cmd_makecldf(self, args):
         self.init(args)
-        with self.nexus_summary() as nex:
-            self.add_tree_from_nexus(
-                args,
-                nexus.NexusReader.from_string(
-                    RATE_PATTERN.sub(':', self.raw_dir.read('Ainu_SDollo_GRW.mcct.trees'))),
-                nex,
-                'summary',
-                detranslate=True,
-            )
-        posterior = self.sample(
-            self.read_gzipped_text(self.raw_dir / 'Ainu_SDollo_GRW.trees.gz'),
-            detranslate=True,
-            as_nexus=True)
+        args.writer.add_summary(
+            self.raw_dir.read_tree('Ainu_SDollo_GRW.mcct.trees', detranslate=True),
+            self.metadata,
+            args.log)
+        
+        # set burn-in to 1001, take the rest
+        posterior = self.read_nexus(self.raw_dir / 'Ainu_SDollo_GRW.trees.gz')
+        posterior = self.remove_burnin(posterior, 1001)
+        posterior.trees.detranslate()
+        args.writer.add_posterior(
+            posterior.trees.trees,
+            self.metadata,
+            args.log)
 
-        with self.nexus_posterior() as nex:
-            for i, tree in enumerate(posterior.trees.trees, start=1):
-                self.add_tree(args, tree, nex, 'posterior-{}'.format(i))
-
-        self.add_data(args, self.raw_dir / 'Ainu.nex')
+        args.writer.add_data(
+            self.raw_dir.read_nexus('Ainu.nex'),
+            self.characters,
+            args.log)

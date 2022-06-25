@@ -8,7 +8,7 @@
     "year": 2013,
     "scaling": "years",
     "analysis": "bayesian",
-    "family": "ainu1252",
+    "family": "Ainu",
     "cldf": "https://github.com/lexibank/leeainu",
     "missing": {
         "characters": "not readily available"
