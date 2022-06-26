@@ -10,11 +10,10 @@ class Dataset(phlorest.Dataset):
 
     def cmd_makecldf(self, args):
         self.init(args)
-        # args.writer.add_summary(
-        #     self.raw_dir.read_tree('Ainu_SDollo_GRW.mcct.trees', detranslate=True),
-        #     self.metadata,
-        #     args.log)
-        #
+        summary = self.raw_dir.read_tree(
+            'Ainu_SDollo_GRW.mcct.trees', detranslate=True)
+        args.writer.add_summary(summary, self.metadata, args.log)
+                
         # set burn-in to 1001, take the rest
         posterior = self.raw_dir.read_trees(
             'Ainu_SDollo_GRW.trees.gz',
