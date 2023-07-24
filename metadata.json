@@ -9,7 +9,7 @@
     "scaling": "years",
     "analysis": "bayesian",
     "family": "Ainu",
-    "cldf": "https://github.com/lexibank/leeainu",
+    "cldf": "https://doi.org/10.5281/zenodo.5126889",
     "missing": {
         "characters": "not readily available"
     }

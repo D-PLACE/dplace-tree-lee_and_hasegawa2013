@@ -1,5 +1,5 @@
 {
-    "title": null,
+    "title": "Phlorest phylogeny derived from Lee & Hasegawa 2013 'Ainu (Lee & Hasegawa 2013)'",
     "access_right": "open",
     "keywords": [
         "cldf:Generic",
@@ -10,6 +10,20 @@
     "communities": [
         {
             "identifier": "dplace"
+        }
+    ],
+    "creators": [
+        {
+            "name": "Sean Lee"
+        },
+        {
+            "name": "Toshikazu Hasegawa"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Simon J. Greenhill",
+            "type": "Other"
         }
     ]
 }
