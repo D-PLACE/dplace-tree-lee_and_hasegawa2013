@@ -15,7 +15,7 @@
         "analysis": "bayesian",
         "scaling": "years"
     },
-    "dc:title": "Phlorest phylogeny derived from Lee & Hasegawa 2013 'Ainu (Lee & Hasegawa 2013)'",
+    "dc:title": "Phlorest phylogeny derived from Lee & Hasegawa 2013 'Evolution of the Ainu Language in Space and Time'",
     "dcat:accessURL": "https://github.com/phlorest/lee_and_hasegawa2013",
     "prov:wasDerivedFrom": [
         {
@@ -33,7 +33,7 @@
         {
             "rdf:about": "https://github.com/phlorest/lee_and_hasegawa2013",
             "rdf:type": "prov:Entity",
-            "dc:created": "7d9daa4",
+            "dc:created": "b3f7970",
             "dc:title": "Repository"
         },
         {
