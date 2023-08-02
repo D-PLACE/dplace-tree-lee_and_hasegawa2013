@@ -1,0 +1,29 @@
+{
+    "title": "Phlorest phylogeny derived from Lee & Hasegawa 2013 'Evolution of the Ainu Language in Space and Time'",
+    "access_right": "open",
+    "keywords": [
+        "cldf:Generic",
+        "linguistics"
+    ],
+    "upload_type": "dataset",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Lee S, Hasegawa T (2013) Evolution of the Ainu Language in Space and Time. PLoS ONE 8(4): e62243. doi: 10.1371/journal.pone.0062243</p>\n</blockquote>",
+    "communities": [
+        {
+            "identifier": "dplace"
+        }
+    ],
+    "creators": [
+        {
+            "name": "Sean Lee"
+        },
+        {
+            "name": "Toshikazu Hasegawa"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Simon J. Greenhill",
+            "type": "Other"
+        }
+    ]
+}
