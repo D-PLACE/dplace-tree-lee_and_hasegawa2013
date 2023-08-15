@@ -1,6 +1,7 @@
 # Phlorest phylogeny derived from Lee & Hasegawa 2013 'Evolution of the Ainu Language in Space and Time'
 
 [![CLDF validation](https://github.com/phlorest/lee_and_hasegawa2013/workflows/CLDF-validation/badge.svg)](https://github.com/phlorest/lee_and_hasegawa2013/actions?query=workflow%3ACLDF-validation)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8250179.svg)](https://doi.org/10.5281/zenodo.8250179)
 
 ## How to cite
 
